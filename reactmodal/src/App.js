@@ -1,5 +1,6 @@
 import './App.css';
-import ModalExample from './component/modal';
+// import ModalExample from './component/modal';
+import Chips from './component/Tooltip';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <ModalExample />
+        {/* <ModalExample /> */}
+        <Chips />
       </header>
     </div>
   );

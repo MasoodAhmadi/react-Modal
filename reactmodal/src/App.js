@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './App.css';
-import DragNDrop from './component/DragNDrop';
+// import DragNDrop from './component/DragNDrop';
 import ModalExample from './component/modal';
 // import Chips from './component/Tooltip';
-// import Kanban from './component/Kanban';
+import Navigation from './component/Nav';
 
 function App() {
   return (
     <div style={{ textAlign: '' }}>
+      <Navigation />
       <header className='App-header'>
         <img className='App-logo' alt='logo' />
         <p>
@@ -29,7 +30,7 @@ function App() {
             color: 'white',
           }}
         >
-          <DragNDrop />
+          {/* <DragNDrop /> */}
         </div>
       </header>
     </div>
